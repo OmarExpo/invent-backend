@@ -20,7 +20,11 @@ app.use(express.urlencoded({ extended: false }));
 // );
 app.use(
   cors({
-    origin: ["http://localhost:3000", "https://invent-app-xi.vercel.app"],
+    origin: [
+      "http://localhost:3000",
+      "https://invent-app-xi.vercel.app",
+      "invent-nvf6cyybp-omarexpo.vercel.app",
+    ],
     "Access-Control-Allow-Headers": "Authorization",
     credentials: true,
   })
