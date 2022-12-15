@@ -6,7 +6,13 @@ NodeJs & Express
 
 MongoDB Atlas (NoSQL for data persistence)
 
+Cloudinary (for media management such as images 6 videos)
+
 Visual Studio for IDE of choice
+
+### Two main category of RestAPIs
+<li>api/products</li>  all CRUD operations available (GET - POST - UPDATE - DELETE)
+<li>api/users</li>
 
 
 ### Deployment
