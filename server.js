@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(
   cors({
     origin: ["http://localhost:3000", "https://invent-app-xi.vercel.app"],
-    credentials: true,
+    // credentials: true,
   })
 );
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
