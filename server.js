@@ -18,7 +18,13 @@ app.use(express.urlencoded({ extended: false }));
 //     // credentials: true,
 //   })
 // );
-app.use(cors("*"));
+app.use(
+  cors({
+    origin: "*",
+    "Access-Control-Allow-Headers": "Authorization",
+    credentials: true,
+  })
+);
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 // Routes Middleware
