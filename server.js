@@ -18,6 +18,7 @@ app.use(
       "http://localhost:3000",
       "https://invent-app-gamma.vercel.app",
       "https://invent-rez3vbbty-omarexpo.vercel.app",
+      "https://invent-app-git-main-omarexpo.vercel.app/",
     ],
     credentials: true,
   })
