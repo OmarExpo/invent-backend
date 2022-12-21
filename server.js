@@ -15,9 +15,10 @@ app.use(express.urlencoded({ extended: false }));
 app.use(
   cors({
     origin: [
-      "http://localhost:3000",
-      "https://invent-app-gamma.vercel.app",
-      "https://invent-rez3vbbty-omarexpo.vercel.app/",
+      "*",
+      // "http://localhost:3000",
+      // "https://invent-app-gamma.vercel.app",
+      // "https://invent-rez3vbbty-omarexpo.vercel.app/"
     ],
     "Access-Control-Allow-Headers": "Authorization",
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
