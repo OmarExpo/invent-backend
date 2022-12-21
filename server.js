@@ -19,6 +19,7 @@ app.use(
       "https://invent-app-gamma.vercel.app",
       "https://invent-rez3vbbty-omarexpo.vercel.app/",
     ],
+    "Access-Control-Allow-Headers": "Authorization",
     credentials: true,
   })
 );
