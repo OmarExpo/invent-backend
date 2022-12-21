@@ -20,6 +20,7 @@ app.use(
       "https://invent-rez3vbbty-omarexpo.vercel.app/",
     ],
     "Access-Control-Allow-Headers": "Authorization",
+    methods: ["GET", "POST", "PUT"],
     credentials: true,
   })
 );
