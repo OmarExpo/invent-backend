@@ -19,6 +19,7 @@ app.use(
       "https://invent-app-gamma.vercel.app",
       "https://invent-rez3vbbty-omarexpo.vercel.app",
       "https://invent-app-git-main-omarexpo.vercel.app",
+      "https://invent-7rfty29af-omarexpo.vercel.app",
     ],
     credentials: true,
   })
