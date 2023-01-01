@@ -123,7 +123,7 @@ const loginUser = asyncHandler(async (req, res) => {
 const logout = asyncHandler(async (req, res) => {
   res.cookie("token", "", {
     path: "/",
-    httpOnly: true,
+    httpOnly: false,
     expires: new Date(0),
     sameSite: "none",
     secure: true,
