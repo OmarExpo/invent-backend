@@ -46,7 +46,7 @@ const registerUser = asyncHandler(async (req, res) => {
   // Send HTTP-only cookie
   res.cookie("token", token, {
     path: "/",
-    httpOnly: true,
+    httpOnly: false,
     expires: new Date(Date.now() + 1000 * 86400), // 1 day
     sameSite: "none",
     secure: true,
@@ -96,7 +96,7 @@ const loginUser = asyncHandler(async (req, res) => {
   // Send HTTP-only cookie
   res.cookie("token", token, {
     path: "/",
-    httpOnly: true,
+    httpOnly: false,
     expires: new Date(Date.now() + 1000 * 86400), // 1 day
     sameSite: "none",
     secure: true,
