@@ -1,5 +1,7 @@
 # Invent-App Backend
 
+## This repository contains the code for a backend application I created using the MERN tech stack. I created an inventory management system. 
+
 ## It is been built using the following, stack, tools & technologies:
 
 NodeJs & Express
