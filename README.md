@@ -28,8 +28,5 @@ Products and Users available at this endpoint:
 
 ### Deployment
 
-This App is deployed through Render.
-Visit: [https://invent-app-api-b9s1.onrender.com/]
-
-Note: this is a fully functionnal 'Full Stack App'. Therefore, its web application UI which is built with React framework & Redux state management
-Visit: [https://invent-app-gamma.vercel.app]
+This full stack application was deployed separately - backend in Render and frontend in Vercel (also in Amplify)
+(available in the report)
