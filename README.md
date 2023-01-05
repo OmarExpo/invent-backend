@@ -28,5 +28,10 @@ Products and Users available at this endpoint:
 
 ### Deployment
 
-This full stack application was deployed separately - backend in Render and frontend in Vercel (also in Amplify)
-(available in the report)
+This full stack application was deployed separately:
+
+_ backend in Render and 
+
+_ frontend in Vercel (also in Amplify)
+
+All available in the repor
