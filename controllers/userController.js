@@ -1,3 +1,4 @@
+require("dotenv").config();
 const User = require("../models/userModel");
 const asyncHandler = require("express-async-handler");
 const jwt = require("jsonwebtoken");
@@ -7,8 +8,7 @@ const Token = require("../models/tokenModel");
 const sendEmail = require("../utils/sendEmail");
 
 // Environment Variables
-// const JWTSecret = process.env.JWT_SECRET;
-const clientURL = process.env.CLIENT_URL;
+const FRONTENDURL = process.env.FRONTEND_URL;
 
 // Generate token
 const generateToken = (id) => {
@@ -174,7 +174,7 @@ const forgotPassword = asyncHandler(async (req, res) => {
   }).save();
 
   // Reset url
-  const resetUrl = `${clientURL}/resetpassword/${resetToken}`;
+  const resetUrl = `${FRONTENDURL}/resetpassword/${resetToken}`;
 
   // Reset Email
   const message = `
