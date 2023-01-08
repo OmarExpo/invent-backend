@@ -1,4 +1,4 @@
-require("dotenv").config();
+const dotenv = require("dotenv").config();
 const User = require("../models/userModel");
 const asyncHandler = require("express-async-handler");
 const jwt = require("jsonwebtoken");
@@ -8,7 +8,7 @@ const Token = require("../models/tokenModel");
 const sendEmail = require("../utils/sendEmail");
 
 // Environment Variables
-const FRONTEND_URL = process.env.FRONTENDURL;
+const FRONTEND_URL = process.env.APP_FRONTEND_URL;
 
 // Generate token
 const generateToken = (id) => {
