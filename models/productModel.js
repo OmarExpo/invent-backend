@@ -4,7 +4,7 @@ const productSchema = mongoose.Schema(
   {
     user: {
       type: mongoose.Schema.Types.ObjectId,
-      required: false,
+      required: true,
       ref: "User",
     },
     name: {
@@ -14,9 +14,10 @@ const productSchema = mongoose.Schema(
     },
     sku: {
       type: String,
-      required: true,
+      required: [true, "SKU could not be generated"],
       default: "SKU",
       trim: true,
+      //   unique: true,
     },
     category: {
       type: String,
@@ -24,19 +25,18 @@ const productSchema = mongoose.Schema(
       trim: true,
     },
     quantity: {
-      type: String,
+      type: Number,
       required: [true, "Please add a quantity"],
       trim: true,
     },
     price: {
-      type: String,
-      required: [true, "Please add a price"],
+      type: Number,
+      required: [true, "Please add a quantity"],
       trim: true,
     },
     description: {
       type: String,
       required: [true, "Please add a description"],
-      trim: true,
     },
     image: {
       type: Object,
