@@ -8,7 +8,7 @@ const Token = require("../models/tokenModel");
 const sendEmail = require("../utils/sendEmail");
 
 // Environment Variables
-const FRONTENDURL = process.env.FRONTEND_URL;
+const FRONTEND_URL = process.env.FRONTENDURL;
 
 // Generate token
 const generateToken = (id) => {
@@ -174,7 +174,7 @@ const forgotPassword = asyncHandler(async (req, res) => {
   }).save();
 
   // Reset url
-  const resetUrl = `${FRONTENDURL}/resetpassword/${resetToken}`;
+  const resetUrl = `${FRONTEND_URL}/resetpassword/${resetToken}`;
 
   // Reset Email
   const message = `
