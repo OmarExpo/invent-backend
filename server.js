@@ -20,10 +20,6 @@ app.use(
     origin: [
       "http://localhost:3000",
       "https://invent-app-gamma.vercel.app",
-      "https://invent-rez3vbbty-omarexpo.vercel.app",
-      "https://invent-app-git-main-omarexpo.vercel.app",
-      "https://invent-7rfty29af-omarexpo.vercel.app",
-      "https://invent-nhj2kbrtq-omarexpo.vercel.app",
       "https://invent-2cinpqluy-omarexpo.vercel.app",
       "https://main.d3au1vqzr12doc.amplifyapp.com",
     ],
