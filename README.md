@@ -26,9 +26,9 @@ EXPRESS (backend)
 
 MONGO DB Atlas(backend - NoSQL for data persistence)
 
-JWT Authentication
+JWT Authentication (backend)
 
-Cloudinary (for media management such as images & videos)
+Cloudinary (backend - for media management such as images & videos)
 
 Visual Studio for IDE of choice
 
