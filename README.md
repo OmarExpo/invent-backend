@@ -70,4 +70,4 @@ This full stack application was deployed separately:
 
 \_ frontend in Vercel (also in Amplify)
 
-All available in the repor
+All available in the report.
